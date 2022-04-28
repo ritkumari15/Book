@@ -1,0 +1,9 @@
+basically when we add a new book , it associate book with store  
+store and book has manyTomany relation 
+so when we add a new book 
+    if(book already exist   by fetch book by name)
+        increament book by 1
+    else
+      create new book with count 1
+when we get book it decrease count by 1
+if(count become 0 it delete that book from DB)
